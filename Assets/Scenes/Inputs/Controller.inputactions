@@ -1,0 +1,90 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "5c037eaa-5b35-4d29-97ab-6f5a883cc8d8",
+            "actions": [
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "d4dcb397-9903-47df-9354-a04fc4ca68f7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftThumb",
+                    "type": "Value",
+                    "id": "240595c3-0430-4b2b-ac3a-133943344bc3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightThumb",
+                    "type": "Value",
+                    "id": "362217ff-d88a-4672-bba3-0d1376b3fdd8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "B",
+                    "type": "Button",
+                    "id": "c8cdad3c-9b67-4326-b6cc-62d6dddea1ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4faa78ac-33c9-498f-9270-84e7f7c0db74",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "997b0709-c047-4377-866a-4e773a96679e",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftThumb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c1468938-ec62-49db-9c98-30ada9f6d355",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightThumb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01591764-9dfa-4c48-9448-a55cd933da2d",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
